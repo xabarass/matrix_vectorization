@@ -1,0 +1,43 @@
+==============================================================
+= Linux Perf Initializing
+==============================================================
+Core 0  : online
+Core 1  : online
+Core 2  : online
+Core 3  : online
+Core 4  : offline
+Core 5  : offline
+Core 6  : offline
+Core 7  : offline
+Scheduling on core: 3
+
+using libpfm4: 262144
+Detected PMU models:
+    [18, ix86arch, "Intel X86 architectural PMU"]
+    [51, perf, "perf_events generic PMU"]
+    [114, perf_raw, "perf_events raw PMU"]
+    [200, skl, "Intel Skylake"]
+Total events: 5739 available, 160 supported
+
+Name        : CPU_CLK_THREAD_UNHALTED (Intel Skylake)
+Description : Count core clock cycles whenever the clock signal on the specific core is running (not halted)
+Code        : 0x3c
+
+==============================================================
+= Using Linux Perf
+==============================================================
+N: 100 SISD 0.443146 SSE 2.17312 AVX 1.92459
+N: 200 SISD 0.433948 SSE 1.57434 AVX 1.62573
+N: 300 SISD 0.426429 SSE 1.34595 AVX 1.52805
+N: 400 SISD 0.420228 SSE 1.34696 AVX 1.53574
+N: 500 SISD 0.425849 SSE 1.31394 AVX 1.50105
+N: 600 SISD 0.424841 SSE 1.34841 AVX 1.4737
+N: 700 SISD 0.390912 SSE 1.18169 AVX 1.32968
+N: 800 SISD 0.272474 SSE 0.602768 AVX 1.00032
+N: 900 SISD 0.233203 SSE 0.515984 AVX 0.706136
+N: 1000 SISD 0.291599 SSE 0.541473 AVX 0.853562
+N: 1100 SISD 0.222897 SSE 0.508663 AVX 0.831463
+N: 1200 SISD 0.271321 SSE 0.610069 AVX 0.963268
+N: 1300 SISD 0.223222 SSE 0.477207 AVX 0.908085
+N: 1400 SISD 0.271489 SSE 0.502285 AVX 0.989333
+N: 1500 SISD 0.22061 SSE 0.471593 AVX 0.884493
